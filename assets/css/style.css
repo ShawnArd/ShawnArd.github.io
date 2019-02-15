@@ -1,0 +1,8 @@
+.about-contact-links {
+    display: flex;
+    width: 50%;
+    padding-left: 25%;
+  
+    justify-content: space-between;
+}
+  
