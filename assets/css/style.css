@@ -1,8 +1,36 @@
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 .about-contact-links {
     display: flex;
     width: 50%;
     padding-left: 25%;
-  
     justify-content: space-between;
+    
 }
-  
+.content-wrapper {
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.content-text {
+    width: 50%;
+    justify-content: left;
+}
+.content-frame {
+    margin-left: auto;
+    width:40%;
+    justify-content: right;
+}
+
+ 
+.main-content {
+    flex: 1;
+    justify-content: center;
+    width: 80%;
+    padding-left:10%
+
+}

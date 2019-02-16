@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    height:50px;
+    padding-left: 5%;
+}
+
+.header-left {
+    display: inline-flex;
+    justify-content: right;
+    margin: auto 0;
+}
+
+.header-name {
+    display: inline-flex;
+    justify-content: left;
+    margin: auto 0;
+}
