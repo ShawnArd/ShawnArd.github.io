@@ -2,7 +2,7 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: rgb(255, 245, 228);
+    background-color: rgb(255, 251, 242);
 }
 
 .content-wrapper {
@@ -76,10 +76,14 @@
 
 .contact-link {
     text-decoration: none;
-    color: black; 
+    color: rgb(255, 251, 242);
+    padding: 5px;
+    border: solid rgb(109, 109, 253) 3px;
+    background-color: rgb(109, 109, 253);
+    border-radius: 5px; 
 }
 
 .contact-link:hover {
     color: rgb(73, 36, 110);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }

@@ -30,7 +30,7 @@ header {
     font-family: 'Fugaz One', cursive;
 }
 .head-name {
-    color: rgb(255, 234, 195);
+    color: rgb(255, 251, 242);
     text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ header {
     color:rgb(73, 36, 110)
 }
 .nav-link {
-    color: rgb(255, 234, 195);
+    color: rgb(255, 251, 242);
     font-family: 'Bevan', cursive;
     padding: 5px;
     font-size: 20px;
