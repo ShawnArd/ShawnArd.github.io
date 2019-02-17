@@ -5,7 +5,7 @@ header blue rgb(109, 109, 253);
 header {
     background-color: rgb(109, 109, 253);
     padding: 15px;
-    border: solid black 5px;
+    border-bottom: solid rgb(73, 36, 110) 5px;
 }
 .nav {
     display: flex;
@@ -26,13 +26,25 @@ header {
     display: inline-flex;
     justify-content: left;
     margin: auto 0;
-    font-size: 30px;
-    font-family: 'Sigmar One', cursive;
+    font-size: 35px;
+    font-family: 'Fugaz One', cursive;
 }
 .head-name {
-    color: rgb(255, 184, 51);
+    color: rgb(255, 234, 195);
+    text-decoration: none;
 }
 
-.head-name :hover {
-    color: red;
+.head-name:hover {
+    color:rgb(73, 36, 110)
+}
+.nav-link {
+    color: rgb(255, 234, 195);
+    font-family: 'Bevan', cursive;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color:rgb(73, 36, 110)
 }
