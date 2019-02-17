@@ -6,6 +6,9 @@ header {
     background-color: rgb(109, 109, 253);
     padding: 15px;
     border-bottom: solid rgb(73, 36, 110) 5px;
+    top: 0px;
+    position: fixed;
+    width:100%;
 }
 .nav {
     display: flex;
