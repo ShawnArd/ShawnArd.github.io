@@ -120,3 +120,7 @@
 .project-title {
     font-weight: bold;
 }
+
+@media (max-width: 980px) {
+
+}

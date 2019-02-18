@@ -18,7 +18,7 @@ header {
     padding-left: 5%;
 }
 
-.header-left {
+.header-right {
     display: inline-flex;
     justify-content: right;
     margin: auto 0;
@@ -81,3 +81,44 @@ header {
     transform: scaleX(1);
 }
  */
+
+ @media (max-width: 980px) {
+    header {
+        background-color: black;
+    }
+
+    .nav {
+        display: block;
+    }
+    
+    .header-right {
+        width:100%;
+        background-color: black;
+        display:inline-block;
+        /* border: red solid 2px; */
+        justify-content: space-between;
+    }
+
+    .nav-link {
+        color: rgb(255, 251, 242);
+        font-family: 'Bevan', cursive;
+        padding: 10px;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .header-name {
+    
+        display: block;
+        justify-content: left;
+        margin: auto 0;
+        font-size: 15px;
+        font-family: 'Fugaz One', cursive;
+    }
+    .nav-title {
+        color: rgb(255, 251, 242);
+        font-family: 'Bevan', cursive;
+        padding: 10px;
+        font-size: 10px;
+        text-decoration: none;
+    }
+}
