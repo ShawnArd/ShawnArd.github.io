@@ -122,5 +122,44 @@
 }
 
 @media (max-width: 980px) {
+    .main-content {
+        width: 100%;
+        /* border: solid 2px red; */
+        padding-left:0%;
+    }
+    
+    .content-wrapper {
+        width: 100%;
+        /* border: black 2px solid; */
+        display: block;
+    }
+    .content-text {
+        width: 80%;
+        display: block;
+    }
+    .content-frame {
+        margin-left: auto;
+        width:100%;
+        justify-content: right;
+        /* border: 3px solid black; */
+        display: flex;
+    }
+    .project-row {
+        display: block;
 
+    }
+
+    .project-frame {
+        width: 100%;
+        border: 5px solid rgb(109, 109, 253);
+        border-radius: 10px;
+        display: block;
+    
+    }
+    .project-photo {
+        /* border: 3px solid red; */
+        height: 200px;
+        width: 100%;
+    
+    }
 }
