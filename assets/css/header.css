@@ -43,7 +43,15 @@ header {
 .nav-link {
     color: rgb(255, 251, 242);
     font-family: 'Bevan', cursive;
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-title {
+    color: rgb(255, 251, 242);
+    font-family: 'Bevan', cursive;
+    padding: 10px;
     font-size: 20px;
     text-decoration: none;
 }
@@ -52,3 +60,24 @@ header {
     color:rgb(73, 36, 110)
 }
 
+/* .nav-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+  
+.nav-link:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+ */
